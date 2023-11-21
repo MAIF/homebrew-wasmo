@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Espanso < Formula
+class Wasmo < Formula
   desc "WASM Binaries Builder"
   homepage "https://github.com/MAIF/wasmo/tree/main/cli"
   url "https://github.com/MAIF/wasmo/archive/refs/tags/0.1.6.tar.gz"
