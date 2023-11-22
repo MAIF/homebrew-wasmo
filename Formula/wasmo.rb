@@ -12,8 +12,7 @@ class Wasmo < Formula
   depends_on "rust" => :build
 
   def install
-    system "cd", "cli"
-    system "cargo", "build", "--release", "--bin", "wasmo"
+    system "cargo", "--manifest-path=dir/Cargo.toml", "build", "--release", "--bin", "wasmo"
     bin.install "target/release/wasmo"
   end
 end
