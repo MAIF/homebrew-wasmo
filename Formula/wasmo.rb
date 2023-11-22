@@ -13,6 +13,6 @@ class Wasmo < Formula
 
   def install
     system "cargo", "build", "--manifest-path=cli/Cargo.toml", "--release", "--bin", "wasmo"
-    bin.install "target/release/wasmo"
+    bin.install "cli/target/release/wasmo"
   end
 end
