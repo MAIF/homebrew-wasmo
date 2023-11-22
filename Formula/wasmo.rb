@@ -9,6 +9,8 @@ class Wasmo < Formula
   sha256 "ab8b9915ab620c473418dfc9a795670ce602649ef3c69f639cd84c8e5d56286b"
   version "0.1.6"
 
+  depends_on "rust" => :build
+
   def install
     system "cd", "cli"
     system "cargo", "build", "--release", "--bin", "wasmo"
