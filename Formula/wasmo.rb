@@ -4,6 +4,7 @@
 class Wasmo < Formula
   desc "WASM Binaries Builder"
   homepage "https://github.com/MAIF/wasmo/tree/main/cli"
+  licence "Apache License 2.0"
   url "https://github.com/MAIF/wasmo/archive/refs/tags/0.1.6.tar.gz"
   sha256 "ab8b9915ab620c473418dfc9a795670ce602649ef3c69f639cd84c8e5d56286b"
   version "0.1.6"
