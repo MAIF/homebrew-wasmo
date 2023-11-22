@@ -10,6 +10,7 @@ class Wasmo < Formula
   version "0.1.6"
 
   def install
-    bin.install "wasmo"
+    system "cargo", "build", "--release", "--bin", "wasmo"
+    bin.install "target/release/wasmo"
   end
 end
