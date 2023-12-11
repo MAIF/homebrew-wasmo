@@ -6,7 +6,7 @@ class Wasmo < Formula
   homepage "https://github.com/MAIF/wasmo/tree/main/cli"
   license any_of: ["MIT", "0BSD"]
   url "https://github.com/MAIF/wasmo/archive/refs/tags/0.2.2.tar.gz"
-  sha256 "ab8b9915ab620c473418dfc9a795670ce602649ef3c69f639cd84c8e5d56286b"
+  sha256 "98bd88049c8324e971c96e0718056b2d6590527da129da54d960cdad9bf52572"
   version "0.2.2"
 
   depends_on "rust" => :build
