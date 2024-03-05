@@ -5,9 +5,9 @@ class Wasmo < Formula
   desc "WASM Binaries Builder"
   homepage "https://github.com/MAIF/wasmo/tree/main/cli"
   license any_of: ["MIT", "0BSD"]
-  url "https://github.com/MAIF/wasmo/archive/refs/tags/1.0.14.tar.gz"
-  sha256 "da4c9118975744de5cfc7acad64d7b129958738eae53a1c7068de0269476ea94"
-  version "1.0.14"
+  url "https://github.com/MAIF/wasmo/archive/refs/tags/1.0.15.tar.gz"
+  sha256 "77b2286c61baf0f4416c5abe31ce6a75e6633f1afc60cff26782a754250e9f94"
+  version "1.0.15"
 
   depends_on "rust" => :build
 
